@@ -4,8 +4,8 @@ from time import sleep
 
 summoner_name = 
 server = 
-base_url = "https://{}.api.pvp.net/api/lol/{}".format(server, server)
 key = 
+base_url = "https://{}.api.pvp.net/api/lol/{}".format(server, server)
 
 
 # gets summoner ID from name
