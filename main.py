@@ -43,7 +43,7 @@ if len(queue) == 0:
     matches(ID)
 
 
-# gre skoz ceu queue, dobiva id-je od playerjev in doda match idje v matchIDs
+# for every item in queue founds all unique players and moves from queue to matchIDs
 counter = 0
 temp_queue = set(queue)
 for i in temp_queue:
@@ -62,7 +62,7 @@ for i in temp_queue:
         print(i)
 
 
-# gre skoz vse playerje in dobi iz njih matche --> queue
+# goes through every player and adds thier matches to queue
 counter = 0
 temp_player = set(player_IDs)
 for i in temp_player:
