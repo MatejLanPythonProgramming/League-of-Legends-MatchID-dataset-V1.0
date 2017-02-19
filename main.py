@@ -2,10 +2,10 @@ import requests
 from files import create_files, file_set, set_file
 from time import sleep
 
-summoner_name = "xXCreeperFishXx"
-server = "euw"
+summoner_name = 
+server = 
 base_url = "https://{}.api.pvp.net/api/lol/{}".format(server, server)
-key = "RGAPI-c7910a16-9f70-4fdf-bc0d-007bd1292d69"
+key = 
 
 
 # gets summoner ID from name
